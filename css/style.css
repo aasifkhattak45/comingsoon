@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+body {
+	background: url(../images/BG.jpg) top left no-repeat;
+	background-size: cover;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.wrapper {
+	display: inline-block;
+	width: 100%;
+}
+.main_container {
+	width: 528px;
+	margin: 34px auto;
+	text-align: center;
+}
+.comsoon {
+	display: inline-block;
+	width: 100%;
+	margin-top: 70%;
+    margin-bottom: 10px;
+}
+.coms_form {
+	margin-top: 10px;
+}
+
+@media (max-width:550px) {
+.main_container {
+	width: 100%;
+	padding: 0 30px;
+}
+.comsoon {
+	margin: 34px 0 8px;
+}
+}
+
